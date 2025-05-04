@@ -11,6 +11,8 @@ This project implements a fully automated Secure Software Development Lifecycle 
 - **Supply Chain Security** – SBOM (Syft), SLSA compliance
 - **Alert Enrichment** – CWE tagging, severity classification, remediation tips
 
+  ## 📊 Architecture
+
 ## 🧪 Features
 - ✅ Automated static and dynamic scans on every pull request
 - ✅ Trivy-based scanning of Docker images for CVEs
