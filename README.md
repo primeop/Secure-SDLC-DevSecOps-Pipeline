@@ -11,9 +11,18 @@ This project implements a fully automated Secure Software Development Lifecycle 
 - **Supply Chain Security** – SBOM (Syft), SLSA compliance
 - **Alert Enrichment** – CWE tagging, severity classification, remediation tips
 
-  ## 📊 Architecture
+## 🏗️ DevSecOps CI/CD Architecture
 
   ![DEvSecOps Architecture](docs/devsecops-pipeline.png)
+
+- PR triggers pipeline
+- Semgrep + SonarQube perform static scans
+- ZAP performs DAST against a live URL
+- Trivy scans Docker image layers for CVEs
+- SBOM is generated via Syft
+- Findings are enriched with CWE + Fix guidance
+- Results are annotated on PR and stored as artifacts
+
 
 ## 🧪 Features
 - ✅ Automated static and dynamic scans on every pull request
