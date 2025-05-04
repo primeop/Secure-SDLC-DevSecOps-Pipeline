@@ -1,0 +1,9 @@
+rules:
+  - id: insecure-http
+    pattern: http://
+    message: "Insecure HTTP protocol used"
+    severity: ERROR
+    languages: [python, javascript]
+    metadata:
+      cwe: "CWE-319"
+      remediation: "Use HTTPS instead of HTTP for secure communication."
