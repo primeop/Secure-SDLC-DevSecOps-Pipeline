@@ -37,8 +37,6 @@ This project implements a fully automated Secure Software Development Lifecycle 
 
 ## 👤 Author
 **Kamalesh Jayapandiaraj**  
-🔗 [LinkedIn](https://www.linkedin.com/in/...)  
-📫 [Email](mailto:...)
+🔗 [LinkedIn](https://www.linkedin.com/in/kamalesh-jayapandiaraj-arumugam/)  
+📫 [Email](karumuga@usc.edu)
 
-## 📄 License
-MIT License
