@@ -13,6 +13,8 @@ This project implements a fully automated Secure Software Development Lifecycle 
 
   ## 📊 Architecture
 
+  ![DEvSecOps Architecture](docs/devsecops-pipeline.png)
+
 ## 🧪 Features
 - ✅ Automated static and dynamic scans on every pull request
 - ✅ Trivy-based scanning of Docker images for CVEs
